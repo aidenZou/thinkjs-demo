@@ -4,10 +4,12 @@
  * @type {Object}
  */
 export default {
-  type: 'mysql',
-  host: '127.0.0.1',
+  // type: 'mysql',
+  type: 'mongo',
+  // host: '127.0.0.1',
+  host: '192.168.1.100',
   port: '',
-  name: '',
+  name: 'test',
   user: '',
   pwd: '',
   prefix: 'think_',
